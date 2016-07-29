@@ -1,0 +1,435 @@
+body{
+  background-image: url(../gallery/nasa.jpg);
+  margin: 0;
+  font-family: 'lato', sans-serif;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+*{
+  box-sizing: border-box;
+  box-sizing: padding-box;
+}
+
+header{
+  width: 100%;
+  display:flex;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+#head{
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#slack2{
+  width:106px;
+  height:30px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-image: url(../gallery/slack.png)
+}
+
+#head img{
+  width:106px;
+  height:30px;
+}
+
+#head ul{
+  display: flex;
+  font-size: 15px;
+  font-family: fantasy;
+  flex-direction: row;
+  text-decoration: none;
+  list-style: none;
+}
+
+#head ul li a{
+  margin-right: 15px;
+  color: #F0ECEB;
+  opacity: 1;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 10px;
+  display: flex;
+  flex-direction:row;
+  justify-content: flex-end;
+  transition: 0.2s;
+  padding: 8px 7px 9px;
+}
+
+
+#head ul li a:hover{
+  background-color: rgba(0, 0, 0, 0.1);
+  transition: 0.2s;
+  color: white;
+}
+
+#head .logoo img{
+  display: flex;
+  flex-direction:row;
+  width: 33px;
+  border-radius: 2px;
+  margin-top: -6px;
+}
+
+.cadre{
+  border:2px solid #E3E5E6;
+  padding:5px;
+  border-radius: 4px;
+  margin-top: -6px;
+}
+
+.cadre:hover{
+  border:2px solid white;
+}
+
+.menu{
+  border:2px solid #E3E5E6;
+  padding:15px;
+  border-radius: 4px;
+  margin-top: -6px;
+  display: flex;
+  align-items: center;
+  color: #E3E5E6;
+}
+
+.menu:hover{
+  border:2px solid white;
+  color: white;
+}
+
+
+.texte1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 120px;
+}
+
+.texte1 h1{
+  color: white;
+  font-size: 56px;
+
+
+}
+
+.texte1 p{
+  color: white;
+  font-size: 22px;
+  text-align: center;
+  width:76%;
+}
+
+
+.carree{
+  display: flex;
+  justify-content: center;
+}
+
+.formulaire{
+  background: rgba(0,0,0,.65);
+  color: #fff;
+  font-size: 1.59rem;
+  text-shadow: 0 0 1px rgba(0,0,0,.1);
+  width: 45%;
+  padding: 19px;
+  box-sizing: border-box;
+  text-align: center;
+  font-family: Slack-Lato,sans-serif;
+  line-height: 1.6rem;
+  border-radius: 20px;
+}
+
+
+#formulairefooter{
+  font-size: 14px;
+  line-height: 1.375rem;
+  text-align: center;
+  margin: 19px 0 0;
+  width: 100%;
+  text-decoration: none;
+
+}
+
+#formulairefooter a{
+  color: white;
+}
+
+#inline_input{
+  padding: 18 50;
+  border-radius: 5px;
+  border: none;
+}
+
+.signup{
+  padding: 14;
+  background-color: #1BC27F;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  font-size: 18px;
+}
+
+.signup:hover{
+  background-color: #489470;
+  color:#E0E3E6;
+}
+
+.position{
+  display: flex;
+  justify-content: flex-end;
+  color: white;
+  margin: 20px;
+}
+
+.position p:hover{
+  text-decoration:underline;
+}
+
+hr{
+  opacity: 0.5;
+}
+
+.colonne{
+  display: flex;
+  justify-content: space-around;
+  background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(10,0,1,1) 100%);
+  background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(10,0,1,1) 100%);
+  background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(10,0,1,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#e6000000',GradientType=0 );
+  text-decoration: none;
+}
+
+.textcolonne ul{
+  display: flex;
+  color: grey;
+  flex-direction: column;
+  font-size: 12px;
+  margin: 30px;
+  list-style: none;
+  text-decoration: none;
+}
+
+.textcolonne ul li{
+  padding: 8px;
+}
+
+.textcolonne ul li a:hover{
+  color: #675B75;
+}
+
+
+.textcolonne ul li a{
+  text-decoration: none;
+  color: grey;
+}
+
+.navfooter{
+  background-color: #1F1F1F;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.slacklogo{
+  height:30px;
+
+}
+
+.last{
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.last p{
+  margin-right: 10px;
+  color: grey;
+}
+
+.last p:hover{
+  color: #BBBBBB;
+}
+
+.mobile{
+
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  margin: 10px;
+}
+
+.mobile a{
+  text-decoration: none;
+  color: white;
+  opacity: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  border-radius: 8px;
+  margin-left: -30px;
+  position: absolute;
+
+}
+
+.mobile a:hover{
+  opacity: 1;
+  background: rgba(0,0,0,.1);
+}
+
+
+
+@media screen and (max-width:660px) {
+  nav ul li{
+    display: none;
+  }
+}
+
+@media screen and (max-width:660px) {
+  .logoo li a, .texte1 h1{
+    text-align: center;
+    font-size: 38px;
+  }
+}
+
+@media screen and (max-width:660px) {
+  .inputinput, .formulaire, .signup, .carree{
+    width:100%;
+    height: 100%;
+  }
+}
+
+@media screen and (max-width:660px) {
+  .colonne{
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+
+@media screen and (min-width:660px) {
+  .mobile, .menu, #copie{
+    display: none;
+  }
+}
+
+@media screen and (max-width:660px) {
+  .textcolonne, .texte1 p, .position{
+    display: none;
+  }
+}
+
+@media screen and (max-width:660px) {
+  .textcolonne span{
+    padding-top: 200;
+  }
+}
+
+@media screen and (min-width:660px) {
+  .terminus{
+    display: none;
+  }
+}
+
+.terminus{
+  background-color: black;
+  color: white;
+  font-size: 12px;
+}
+
+.terminus ul li{
+  list-style: none;
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: -20px;
+}
+
+hr{
+  margin-left: -40px;
+}
+
+.terminus p{
+  font-size: 26px;
+  color: grey;
+}
+
+@media screen and (max-width:660px) {
+  hr{
+    margin: 0;
+    display: none;
+  }
+}
+
+
+@media screen and (max-width:660px) {
+  .formulaire{
+  border-radius: 0px;
+  background: #2C2D30;
+  }
+}
+
+@media screen and (min-width:660px) {
+  .signup2, .saut{
+
+    display: none;
+  }
+}
+
+@media screen and (min-width:660px) {
+  .barre{
+
+    display: none;
+  }
+}
+
+@media screen and (min-width:660px) {
+  .saut hr{
+  display: none;
+  }
+}
+
+@media screen and (min-width:660px) {
+  .divided{
+  display: none;
+  }
+}
+
+.divided{
+  border-top: 2px solid white;
+  margin-bottom: 20px;
+}
+
+
+
+.signup2{
+  padding: 14;
+  background-color: #1BC27F;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  font-size: 18px;
+}
+
+.signup2:hover{
+  background-color: #489470;
+  color:#E0E3E6;
+}
+
+
+@media screen and (max-width:660px) {
+  .signup, #inline_input{
+
+    display: none;
+  }
+}
